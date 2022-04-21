@@ -19,7 +19,46 @@ a
   text-transform: uppercase
   color: $light
 
-.forma-text
-  
+.forma
+  &-text
+    font-size: 16px
+    line-height: 27px
+    color: $dark
+    text-align: center
+  &-form
+    display: flex
+    width: 870px
+    justify-content: space-between
+  &-item
+    position: relative
+  &-name
+    width: 270px
+    height: 55px
+    padding: 15px 20px 15px 61px
+    border: 1px solid $input-fon
+    border-radius: 27.5px
+    z-index: -1
+  &-icon
+    z-index: 1
+    position: absolute
+    top: 50%
+    transform: translateY(-50%)
+    left: 30px
+  &-button
+    width: 270px
+    height: 55px
+  &-wrapper 
+    display: flex
+    justify-content: center
+    align-items: center
+  &-tel
+    font-family: 'Roboto Slab', serif 
+    font-size: 20px
+    line-height: 27px
+    color: $dark
+  &__icon
+    margin-left: 32px
+    margin-right: 15px
+
 
 // font-family: 'Roboto Slab', serif 
