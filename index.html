@@ -7,6 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
   <link rel="stylesheet" href="css/style.css">
   <title>Семь континентов</title>
 </head>
@@ -100,12 +101,37 @@
       <p class="special__subtitle">Путевка в детский оздоровительный лагерь "Лазуревый берег"
       на 18 дней всего&nbsp;<span class="special__subtitle-price">&nbsp;за 25 800 рублей!</span></p>
 
-      <div class="special-wrapper">
-        <!-- поменять на слайдер -->
-        <img src="img/spacial/img_1.jpg" alt="Img-1" class="special__img">
-        <img src="img/spacial/img_2.jpg" alt="Img-2" class="special__img">
-        <img src="img/spacial/img_3.jpg" alt="Img-3" class="special__img">
-        <img src="img/spacial/img_4.jpg" alt="Img-4" class="special__img">
+      <div class="swiper special-swiper">
+        <div class="swiper-wrapper special-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide special-slide">
+            <img src="img/spacial/img_1.jpg" alt="Img-1" class="special__img">
+          </div>
+          <div class="swiper-slide special-slide">
+            <img src="img/spacial/img_2.jpg" alt="Img-2" class="special__img">
+          </div>
+          <div class="swiper-slide special-slide">
+            <img src="img/spacial/img_3.jpg" alt="Img-3" class="special__img">
+          </div>
+          <div class="swiper-slide special-slide">
+            <img src="img/spacial/img_4.jpg" alt="Img-4" class="special__img">
+          </div>
+          <div class="swiper-slide special-slide">
+            <img src="img/spacial/img_1.jpg" alt="Img-1" class="special__img">
+          </div>
+          <div class="swiper-slide special-slide">
+            <img src="img/spacial/img_2.jpg" alt="Img-2" class="special__img">
+          </div>
+          <div class="swiper-slide special-slide">
+            <img src="img/spacial/img_3.jpg" alt="Img-3" class="special__img">
+          </div>
+          <div class="swiper-slide special-slide">
+            <img src="img/spacial/img_4.jpg" alt="Img-4" class="special__img">
+          </div>
+        </div>
+      
+        <button class="special-button-prev"></button>
+        <button class="special-button-next"></button>
       </div>
 
       <div class="special-block">
@@ -147,5 +173,7 @@
     </div>
   </section>
 
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>

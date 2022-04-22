@@ -25,8 +25,10 @@
       color: $light
       background-color: $main
   &-wrapper
-    display: flex
-    justify-content: space-between
+    z-index: -50
+  &__img
+    width: 270px
+    height: 200px
   &-block
     display: flex
     align-items: center
@@ -54,3 +56,36 @@
       line-height: 27px
       color: $dark
       text-align: center
+  &-button
+    &-prev
+      background-image: url(../img/spacial/arrow_left.png)
+      background-repeat: no-repeat
+      background-position: 50%
+      transform: translateY(-50%)
+      padding: 20px
+      width: 9px
+      height: 18px
+      opacity: 0.5
+      background-color: #fff
+      border: none
+      z-index: 50
+      position: absolute
+      top: 50%
+      transform: translateY(-50%)
+      left: 22px
+    &-next
+      background-image: url(../img/spacial/arrow_right.png)
+      background-repeat: no-repeat
+      background-position: 50%
+      transform: translateY(-50%)
+      padding: 20px
+      width: 9px
+      height: 18px
+      opacity: 0.5
+      background-color: #fff
+      border: none
+      z-index: 50
+      position: absolute
+      top: 50%
+      transform: translateY(-50%)
+      right: 32px
